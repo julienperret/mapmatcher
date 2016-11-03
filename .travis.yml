@@ -1,0 +1,12 @@
+sudo: required
+language: java
+jdk:
+- oraclejdk7
+
+install: true
+
+env:
+ - maven.wagon.http.ssl.insecure=true maven.wagon.http.ssl.allowall=true maven.wagon.http.ssl.ignore.validity.dates=true
+
+script: 
+- mvn -X clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
