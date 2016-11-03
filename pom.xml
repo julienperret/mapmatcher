@@ -15,19 +15,19 @@
 			<version>${geoxygene.noyau.version}</version>
 		</dependency>
 	</dependencies>
-  <repositories>
-    <repository>
-      <id>cogit-snapshots</id>
-      <name>IGN COGIT Snapshots</name>
-      <url>https://forge-cogit.ign.fr/nexus/content/repositories/snapshots/</url>
+	<repositories>
+		<repository>
+			<id>cogit-snapshots</id>
+			<name>IGN COGIT Snapshots</name>
+			<url>https://forge-cogit.ign.fr/nexus/content/repositories/snapshots/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 			<releases>
 				<enabled>false</enabled>
-</releases>
-    </repository>
-  </repositories>
+			</releases>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
