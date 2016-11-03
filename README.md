@@ -5,8 +5,8 @@ A simple **map matching** library using the *Hidden-Markov Model Map Matching al
 It is designed to be used from [R](https://www.r-project.org/) and uses the [GeOxygene](https://github.com/IGNF/geoxygene) implementation of the algorithm.
 
 # Usage
-
 ## Installation
+You will need to have [git](https://github.com/git/git) and [maven](https://github.com/apache/maven) installed to proceed.
 ~~~~
 git clone git@github.com:julienperret/mapmatcher.git
 cd mapmatcher
