@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/julienperret/mapmatcher.svg?branch=master)](https://travis-ci.org/julienperret/mapmatcher)
 # Overview
 
 A simple **map matching** library using the *Hidden-Markov Model Map Matching algorithm* (HMM Map Matching) from Paul Newson and John Krumm, "Hidden Markov Map Matching Through Noise and Sparseness", 17th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL GIS 2009), November 4-6, Seattle, WA, pp. 336-343. ([PDF](http://research.microsoft.com/en-us/um/people/jckrumm/Publications%202009/map%20matching%20ACM%20GIS%20camera%20ready.pdf), [slides](http://research.microsoft.com/en-us/um/people/jckrumm/Publications%202009/Hidden%20Markov%20Map%20Matching%20Through%20Noise%20and%20Sparseness%20-%20ACM%20SIGSPATIAL%202009-final.pptx), [shared data](http://research.microsoft.com/en-us/um/people/jckrumm/MapMatchingData/data.htm)).
