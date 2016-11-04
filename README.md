@@ -13,6 +13,10 @@ git clone git@github.com:julienperret/mapmatcher.git
 cd mapmatcher
 mvn install
 ~~~~
+If that fails, it might be because of insecure SSL certificate. Try the following:
+~~~~
+mvn install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+~~~~
 this should produce a file named *mapmatcher-0.0.1-SNAPSHOT-jar-with-dependencies.jar* in the *target* directory.
 You can then include this library in *R* by placing the library in the *classpath*.
 ~~~~
