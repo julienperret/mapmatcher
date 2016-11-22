@@ -52,4 +52,3 @@ An example call of the function with existing shapefiles:
 ~~~~
 matchHikingTrail("/my/existing/gps_file.shp","/my/existing/roadnetwork_file.shp","/output/matched_gps_file.csv")
 ~~~~
-
